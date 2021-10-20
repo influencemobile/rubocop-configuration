@@ -13,5 +13,8 @@ Style/StringLiterals:
 Style/StringLiteralsInInterpolation:
   Enabled: false
 
+Layout/SpaceAfterNot:
+  Enabled: false # Removing a space will not make it more readable
+
 Layout/LineLength:
   Max: 120
