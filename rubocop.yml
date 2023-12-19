@@ -25,3 +25,6 @@ Metrics/BlockLength:
     - '**/*.rake'
     - 'spec/**/*.rb'
     - '*.gemspec'
+
+Lint/ElseLayout:
+  Enabled: false # Allow the else statement on same line as else keyword
