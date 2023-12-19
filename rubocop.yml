@@ -15,7 +15,7 @@ Layout/SpaceAfterNot:
   Enabled: false # Removing a space will not make it more readable
 
 Layout/LineLength:
-  AllowedPatterns: ['(\A|\s)#'] # Ignore length on comments.  Makes YARD documentation difficult.
+  AllowedPatterns: ['\A\s*#'] # Ignore length on comments.  Makes YARD documentation difficult.
   Max: 120
 
 # some blocks are just going to be lengthy
